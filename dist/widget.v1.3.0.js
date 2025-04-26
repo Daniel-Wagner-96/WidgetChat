@@ -5,8 +5,8 @@
   // Store a reference to the script tag that loaded this widget
   const scriptTag = document.currentScript;
   
-  // Widget version (will be replaced with actual version during build)
-  const version = process.env.BUILD_VERSION || 'development';
+  // Widget version (hardcoded version instead of using process.env)
+  const version = '1.3.0';
   
   // Configuration from script tag data attributes
   const config = {
